@@ -1,0 +1,140 @@
+body {
+	background: #FFF;
+	font-size: 16px;
+}
+
+footer {
+	background: #3E3F3A;
+	color: #EEE;
+	padding: 1rem 0;
+}
+
+.form-control {
+	border: 1px solid #ddd;
+}
+.list-group {
+	border-radius: 0px;
+}
+
+.list-group-item {	
+	border: 1px solid #ddd;
+	border-radius: 0px;
+}
+
+.list-group-item:first-child {
+	border-radius: 0px;
+}
+
+a.list-group-item:hover, 
+a.list-group-item:focus {
+	background: #3E3F3A;
+	color: #EEE;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0 !important;
+}
+
+.section-header {
+	background: url(../img/sativa.png) repeat;
+	color: #333;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-height: 320px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
+	overflow: visible;
+}
+
+.section-header .intro-message {
+	position: relative;
+}
+
+.section-header .intro-message > h1 {
+	margin: 0;
+}
+
+.section-header .intro-divider {
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #ccc;
+	width: 400px;
+}
+
+.section-search {
+	margin-bottom: 2em;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.section-resources {
+
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.separator {
+	padding: 2em 0;
+}
+
+.recurso {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0 !important;
+	margin-bottom: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.recurso .caption {
+	padding: 0;
+}
+
+.recurso .caption-img {
+	background: rgba(0,0,0,0.5);
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	transition: all 1s ease;
+}
+
+.recurso .caption-img a {
+	border: 3px solid #EEE;
+	color: #EEE;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.recurso img{
+	width: 100%;
+}
+
+/* XS */
+@media(max-width:768px) {
+	.container {
+		margin-bottom: 1em;
+	}
+	.section-header .intro-message {
+		padding-bottom: 15%;
+	}
+
+	.section-header .intro-message > h1 {
+		font-size: 3em;
+	}
+
+	.section-header .intro-divider {
+		width: 100%;
+	}
+
+	.section-search {
+		margin-bottom: 0;
+	}
+}
